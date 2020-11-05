@@ -261,11 +261,22 @@ textarea {
   }
 }
 
-#welcome-section {
+.full-section {
   height: 100vh;
-  background-color: grey;
 }
 
 #welcome-header {
   font-size: 48px;
+}
+
+#welcome-section {
+  background-color: grey;
+}
+
+#projects {
+  background-color: rgb(62, 100, 158);
+}
+
+#contact {
+  background-color: grey;
 }
