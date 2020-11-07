@@ -14,6 +14,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <script src="https://kit.fontawesome.com/ff66a942b2.js" crossorigin="anonymous"></script>
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -38,7 +39,7 @@
 
     <section class="full-section d-flex text-center" id="welcome-section">
       <div class="w-100 d-flex flex-column justify-content-center">
-        <h1 id="welcome-header">Hi, I'm Austin</h1>
+        <h1 class="section-header" id="welcome-header">Hi, I'm Austin</h1>
         <p class="h4"><i>A Canadian web developer</i></p>
       </div>
     </section>
@@ -49,7 +50,7 @@
       </div>
 
       <div class="p-5 card-deck">
-        <div class="card project-tile">
+        <div class="card project-tile w-25">
           <img class="card-img-top" src="" alt="Project 1">
           <div class="card-body">
             <h5 class="card-title">FCC Technical Page</h5>
@@ -58,7 +59,7 @@
           </div>
         </div>
 
-        <div class="card project-tile">
+        <div class="card project-tile w-25">
           <img class="card-img-top" src="" alt="Project 2">
           <div class="card-body">
             <h5 class="card-title">Project title</h5>
@@ -89,9 +90,18 @@
       </div>
     </section>
 
-    <section class="full-section" id="contact">
-      <a href="https://github.com/Austin-tam" target="_blank" id="profile-link">Github</a>
-      <a href="https://codepen.io/austintam" target="_blank">CodePen</a>
+    <section class="full-section d-flex text-center" id="contact">
+      <div class="w-100 d-flex flex-column justify-content-center">
+        <h1 class="section-header" id="contact-header">Want to collab on a project?</h1>
+        <p class="h4"><i>Shoot me a message and let's connect!</i></p><br>
+        <div class="container" id="inner-contact-div">
+          <span class="fab fa-github"><a href="https://github.com/Austin-tam" target="_blank" id="profile-link">Github</a></span>
+          <span class="fab fa-codepen"><a href="https://codepen.io/austintam" target="_blank">CodePen</a></span>
+          <span class="fab fa-linkedin"><a href="#" target="_blank">LinkedIn</a></span>
+          <span class="fas fa-envelope"><a href="#" target="_blank">Email</a></span>
+          <span class="fas fa-phone"><a href="#" target="_blank">Phone</a></span>
+        </div>
+      </div>
     </section>
   </div>
 

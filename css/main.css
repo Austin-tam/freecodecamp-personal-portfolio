@@ -265,18 +265,22 @@ textarea {
   height: 100vh;
 }
 
-#welcome-header {
-  font-size: 48px;
+.section-header {
+  font-size: 50px;
 }
 
 #welcome-section {
-  background-color: grey;
+  background-color: rgb(156, 151, 137);
 }
 
 #projects {
-  background-color: rgb(62, 100, 158);
+  background-color: rgb(146, 137, 156);
 }
 
 #contact {
-  background-color: grey;
+  background-color: rgb(156, 151, 137);
+}
+
+#inner-contact-div {
+
 }
