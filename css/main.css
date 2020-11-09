@@ -284,3 +284,8 @@ textarea {
 #inner-contact-div {
   height: 10%;
 }
+
+.btn:hover {
+  background-color: grey;
+  transition: all 0.5s ease;
+}
